@@ -105,6 +105,20 @@
             <scope>runtime</scope>
         </dependency>
 
+		<!-- ─── Twilio SDK (Voice Calls + SMS for SOS Alerts) ──────────────── -->
+		<dependency>
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>10.7.0</version>
+		</dependency>
+
+		<!-- ─── Dotenv (Loads .env into Environment) ───────────────────────── -->
+		<dependency>
+			<groupId>io.github.cdimascio</groupId>
+			<artifactId>dotenv-java</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
